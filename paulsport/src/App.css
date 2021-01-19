@@ -44,4 +44,7 @@
     color: #fff;
     font-size: 100px;
   }
-  
+  h1{ 
+    font-size: 25px !important;
+    color: green !important;
+  }

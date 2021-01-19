@@ -7,9 +7,9 @@ function HeroSection() {
   return (
     <div className='hero-container'>
       {/* <video src='/videos/video-1.mp4' autoPlay loop muted /> */}
-      <h1><em>Paul Ignacio Toro</em></h1>
+      <h1 class="mainpg"><em>Paul Ignacio Toro</em></h1>
       <h3>Dad, Coder, Coach, Mentor, Bartender, Uncle,
-      Colombian, Entreprenuer, and much more! </h3> 
+      Colombian, and more! </h3> 
 
 
 
