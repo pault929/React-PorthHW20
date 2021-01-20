@@ -8,9 +8,9 @@ function About () {
     return (
       <div className='hero-container'>
         {/* <video src='/videos/video-1.mp4' autoPlay loop muted /> */}
-        <h1 class="mainpg"><em>About Page</em></h1>
-        <h3>Dad, Coder, Coach, Mentor, Bartender, Uncle,
-        Colombian, and more! </h3> 
+        <h1 className="abtpg"><em>Under Severe Construction</em></h1>
+  
+        {/* <img src='/images/nyc.jpg'> */}
   
   
   
