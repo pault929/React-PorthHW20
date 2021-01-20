@@ -20,15 +20,14 @@ function HeroSection() {
           buttonStyle='btn--outline'
           buttonSize='btn--large'
         >
-          Git Hub Page <i className='fab fa-github' />
+        Git Hub <i className='fab fa-github' />
         </Button>
         <Button
           className='btns'
           buttonStyle='btn--primary'
           buttonSize='btn--large'
-          onClick={console.log('hey')}
         >
-          Entrapenuer Page <i className='fas fa-business-time' />
+          Resume <i className='fas fa-file' />
         </Button>
       </div>
     </div>

@@ -13,13 +13,13 @@ function Cards() {
               src='images/coding.jpg'
               text='Click and explore my personal Github Repos'
               label='Adventure'
-              path='/https://github.com/pault929'
+              path='/'
             />
             <CardItem
               src='images/nyc.jpg'
               text='Travel through the Islands of Bali in a Private Cruise'
               label='Luxury'
-              path='/services'
+              path='/'
             />
           </ul>
           <h1>Some of my Code in action!</h1>
@@ -29,19 +29,19 @@ function Cards() {
               src='images/quizp.JPG'
               text='Take a quiz and test your Coding Knowledge'
               label='Start'
-              path='/services'
+              path='/projects'
             />
             <CardItem
               src='images/readme.jpg'
               text='Create a "Read-Me" file'
               label='Adventure'
-              path='/products'
+              path='/projects'
             />
             <CardItem
               src='images/sche2.JPG'
               text='Click here to update your calendar'
               label='Plan Your Day'
-              path='/sign-up'
+              path='/projects'
             />
           </ul>
         </div>

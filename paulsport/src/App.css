@@ -6,8 +6,8 @@
   }
   
   .home,
-  .services,
-  .products,
+  .projects,
+  .about,
   .sign-up {
     display: flex;
     height: 90vh;
@@ -16,9 +16,9 @@
     font-size: 3rem;
   }
   
-  .services {
+  .about {
     /* background-image: url('/images/img-2.jpg'); */
-    background-color:green;
+    /* background-color:green; */
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -26,14 +26,14 @@
     font-size: 100px;
   }
   
-  .products {
+  .projects {
     /* background-image: url('/images/img-1.jpg'); */
     background-position: center;
     background-size: fill;
     background-repeat: no-repeat;
     color: black !important;
     font-size: 100px;
-    background-color: yellow !important;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 65%, rgb(43, 138, 156) 100%);
   }
   
   .sign-up {
@@ -47,4 +47,10 @@
   h1{ 
     font-size: 25px !important;
     color: green !important;
+  }
+
+  p{
+    font-size:1.5rem !important;
+    text-align: center;
+    text-shadow: none;
   }
