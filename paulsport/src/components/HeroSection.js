@@ -3,6 +3,7 @@ import '../App.css';
 import { Button } from './Button';
 import './HeroSection.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import ResumePdf from '../public/pdf/tororese2020.pdf'
 
 function HeroSection() {
   return (
@@ -22,6 +23,7 @@ function HeroSection() {
           className='btns'
           buttonStyle='btn--primary'
           buttonSize='btn--large'
+          path ={ResumePdf}
         >
           Resume 
         </Button>
@@ -30,6 +32,7 @@ function HeroSection() {
           className='btns'
           buttonStyle='btn--primary'
           buttonSize='btn--large'
+          path='https://github.com/pault929'
         >
           Github
         </Button>
