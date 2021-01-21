@@ -1,5 +1,25 @@
-.abtpg{
-    background-color: rgb(238, 229, 229) !important;
-    color: rgb(140, 32, 212) !important;
-    font-size: 5.5em !important;
+
+body{
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 65%, rgb(43, 138, 156) 100%); 
+}
+img{
+    height: 75%;
+    width: 100%;
+    border-radius: 25px;
+    text-align: center;
+}
+.container{
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 65%, rgb(43, 138, 156) 100%); 
+    color: #fff;
+
+}
+h1{ 
+    color: #fff!important;
+}
+
+ul.no-bullets {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
 }

@@ -2,6 +2,8 @@ import React from 'react';
 import '../App.css';
 import { Button } from './Button';
 import './Projects.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 function Projects() {
   return (

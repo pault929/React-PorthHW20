@@ -2,14 +2,13 @@ import React from 'react';
 import '../App.css';
 import { Button } from './Button';
 import './HeroSection.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function HeroSection() {
   return (
     <div className='hero-container'>
-      {/* <video src='/videos/video-1.mp4' autoPlay loop muted /> */}
       <h1 class="mainpg"><em>Paul Ignacio Toro</em></h1>
-      <h3>Dad, Coder, Coach, Mentor, Bartender, Uncle,
-      Colombian, and more! </h3> 
+      <h3>Full Stack developer with a focus on UX/UI designs. </h3> 
 
 
 
@@ -19,6 +18,7 @@ function HeroSection() {
           className='btns'
           buttonStyle='btn--outline'
           buttonSize='btn--large'
+          // href='http://www.yahoo.com'
         >
         Git Hub <i className='fab fa-github' />
         </Button>
