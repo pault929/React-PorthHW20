@@ -7,29 +7,33 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 function HeroSection() {
   return (
     <div className='hero-container'>
+     
       <h1 class="mainpg"><em>Paul Ignacio Toro</em></h1>
       <h3>Full Stack developer with a focus on UX/UI designs. </h3> 
-
+      {/* <p class='mainpg'>With the focus on designn and function to stream line and creat esmooth transitions.</p> */}
+      <br></br>
+      <img class='pic' src="images/profile2.jpg" alt='profile picture' text-align="center"></img>
 
 
 
       <div className='hero-btns'>
-        <Button
-          className='btns'
-          buttonStyle='btn--outline'
-          buttonSize='btn--large'
-          // href='http://www.yahoo.com'
-        >
-        Git Hub <i className='fab fa-github' />
-        </Button>
-        <Button
+        
+        <Button 
           className='btns'
           buttonStyle='btn--primary'
           buttonSize='btn--large'
         >
-          Resume <i className='fas fa-file' />
+          Resume 
         </Button>
-      </div>
+
+        <Button 
+          className='btns'
+          buttonStyle='btn--primary'
+          buttonSize='btn--large'
+        >
+          Github
+        </Button>
+      </div> 
     </div>
   );
 }

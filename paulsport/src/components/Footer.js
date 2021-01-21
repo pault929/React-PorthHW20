@@ -3,6 +3,7 @@ import './Footer.css';
 import { Button } from './Button';
 import { Link } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
+// import { faFacebook, faTwitter, faLinkedinIn, faInstagram, faGithub } from "@fortawesome/free-brands-svg-icons"
 
 function Footer() {
   return (
@@ -17,39 +18,23 @@ function Footer() {
           </div>
           
           <div class='social-icons'>
-            <Link
-              class='social-icon-link facebook'
-              to='/'
-              target='https://www.facebook.com/'
-              aria-label='Facebook'
-            >
-              <i class='fab fa-facebook-f' />
-            </Link>
-            <Link
-              class='social-icon-link instagram'
-              to='/'
-              target='_blank'
-              aria-label='Instagram'
-            >
-              <i class='fab fa-instagram' />
-            </Link>
+               <a href="https://www.facebook.com/torosnap" >
+               <i class='fab fa-facebook' />
+               </a>
             
-            <Link
-              class='social-icon-link github'
-              to='/'
-              target='_blank'
-              aria-label='Twitter'
-            >
+              <a href="https://www.instagram.com/torosnap">
+              <i class='fab fa-instagram' />
+              </a>
+          
+              <a href="https://www.github.com/pault929">
               <i class='fab fa-github' />
-            </Link>
-            <Link
-              class='social-icon-link twitter'
-              to='/'
-              target='_blank'
-              aria-label='LinkedIn'
-            >
+              </a>
+              
+
+              <a href="https://www.linkedin.com/in/paul-ignacio-toro-0459b044/">
               <i class='fab fa-linkedin' />
-            </Link>
+              </a>
+        
           </div>
         </div>
       </section>
