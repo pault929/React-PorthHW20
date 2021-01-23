@@ -6,22 +6,33 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 function Cards() {
   return (
     <div className='cards'>
-      <h1>Check out these EPIC Destinations!</h1>
+      <h1>Check out these Group Projects</h1>
       <div className='cards__container'>
         <div className='cards__wrapper'>
           <ul className='cards__items'>
             <CardItem
-              src='images/coding.jpg'
-              text='Click and explore my personal Github Repos'
-              label='Adventure'
-              path='/'
+              src='images/comic.jpg'
+              text='Group Project 1 - Start Searching for great Comics'
+              label='Demo'
+              path='https://github.com/VolodymyrBaisa/Project1-Comics-Reader'
+              repoPath='https://volodymyrbaisa.github.io/Project1-Comics-Reader/'
+              
             />
             <CardItem
-              src='images/nyc.jpg'
-              text='Travel through the Islands of Bali in a Private Cruise'
-              label='Luxury'
-              path='/'
+              src='images/emeets.png'
+              text='Group Project 2 - Find a Meeting or Start one'
+              label='Demo'
+              path='https://github.com/sabinehutter/eMeets'
+              repoPath='https://emeets.herokuapp.com/'
             />
+             <CardItem
+              src='images/snip.png'
+              text='Group Project 3 - Learn code thru Snip-Its'
+              label='Demo'
+              path='https://github.com/adilh621/snip-its'
+              repoPath='https://snip-its.herokuapp.com/'
+              />
+            
           </ul>
           <h1>Some of my Code in action!</h1>
           <br></br>
@@ -29,20 +40,23 @@ function Cards() {
             <CardItem
               src='images/quizp.JPG'
               text='Take a quiz and test your Coding Knowledge'
-              label='Start'
-              path='/projects'
+              label='Repo'
+              path='https://github.com/pault929/Quiz'
+              repoPath='https://pault929.github.io/Quiz/'
             />
             <CardItem
               src='images/readme.jpg'
               text='Create a "Read-Me" file'
-              label='Adventure'
-              path='/projects'
+              label='Repo'
+              path='https://github.com/pault929/Can-you-READ-a-READaME'
+              repoPath='https://github.com/pault929/Can-you-READ-a-READaME/blob/main/read.md'
             />
             <CardItem
               src='images/sche2.JPG'
               text='Click here to update your calendar'
-              label='Plan Your Day'
-              path='/projects'
+              label='Repo'
+              path='https://github.com/pault929/SchedulerHomeWork'
+              repoPath='https://pault929.github.io/SchedulerHomeWork/'
             />
           </ul>
         </div>
