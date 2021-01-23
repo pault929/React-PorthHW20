@@ -26,7 +26,7 @@ function Cards() {
               repoPath='https://emeets.herokuapp.com/'
             />
              <CardItem
-              src={process.env.PUBLIC_URL + '/images/snip.png'}
+              src={process.env.PUBLIC_URL + '/images/Snip.png'}
               text='Group Project 3 - Learn code thru Snip-Its'
               label='Demo'
               path='https://github.com/adilh621/snip-its'
