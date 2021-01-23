@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/React-PorthHW20/static/css/main.ffdf1da6.chunk.css",
+    "main.js": "/React-PorthHW20/static/js/main.e624dedd.chunk.js",
+    "main.js.map": "/React-PorthHW20/static/js/main.e624dedd.chunk.js.map",
+    "runtime-main.js": "/React-PorthHW20/static/js/runtime-main.1cdeca51.js",
+    "runtime-main.js.map": "/React-PorthHW20/static/js/runtime-main.1cdeca51.js.map",
+    "static/css/2.150d169a.chunk.css": "/React-PorthHW20/static/css/2.150d169a.chunk.css",
+    "static/js/2.b8313702.chunk.js": "/React-PorthHW20/static/js/2.b8313702.chunk.js",
+    "static/js/2.b8313702.chunk.js.map": "/React-PorthHW20/static/js/2.b8313702.chunk.js.map",
+    "index.html": "/React-PorthHW20/index.html",
+    "static/css/2.150d169a.chunk.css.map": "/React-PorthHW20/static/css/2.150d169a.chunk.css.map",
+    "static/css/main.ffdf1da6.chunk.css.map": "/React-PorthHW20/static/css/main.ffdf1da6.chunk.css.map",
+    "static/js/2.b8313702.chunk.js.LICENSE.txt": "/React-PorthHW20/static/js/2.b8313702.chunk.js.LICENSE.txt",
+    "static/media/tororese2020.7a9e7532.pdf": "/React-PorthHW20/static/media/tororese2020.7a9e7532.pdf"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1cdeca51.js",
+    "static/css/2.150d169a.chunk.css",
+    "static/js/2.b8313702.chunk.js",
+    "static/css/main.ffdf1da6.chunk.css",
+    "static/js/main.e624dedd.chunk.js"
+  ]
+}
