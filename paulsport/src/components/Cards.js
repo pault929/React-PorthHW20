@@ -27,7 +27,7 @@ function Cards() {
             />
              <CardItem
               src='images/snip.png'
-              text='Group Project 3 - UNDER CONSTRUCTION'
+              text='Group Project 3 - Learn code thru Snip-Its'
               label='Demo'
               path='https://github.com/adilh621/snip-its'
               repoPath='https://snip-its.herokuapp.com/'
