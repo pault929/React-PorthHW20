@@ -23,7 +23,7 @@ function HeroSection() {
           className='btns'
           buttonStyle='btn--primary'
           buttonSize='btn--large'
-          path ={ResumePdf}
+          path ={ResumePdf}npm
         >
           Resume 
         </Button>
