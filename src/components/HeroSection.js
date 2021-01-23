@@ -3,7 +3,7 @@ import '../App.css';
 import { Button } from './Button';
 import './HeroSection.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import ResumePdf from '../public/pdf/tororese2020.pdf'
+import ResumePdf from '../resume/tororese2020.pdf'
 
 function HeroSection() {
   return (
