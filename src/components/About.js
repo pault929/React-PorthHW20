@@ -22,8 +22,8 @@ function About () {
         <h1>Certificates - Resumes</h1>
                 <ul class="no-bullets">
                 <li><a href={process.env.PUBLIC_URL + "/images/CUNY.jpg"} target="_blank">CUNY Tech Works</a></li>
-                <li><a href={process.env.PUBLIC_URL + "PaulTCoding.pdf"} target="_blank">Front End <em>Resume</em></a></li>
-                <li><a href={process.env.PUBLIC_URL + "src/PDF/tororese2020.pdf"} target="_blank">Hospitality <em>Resume</em></a></li>
+                <li><a href={process.env.PUBLIC_URL + "/resume/PaulTCoding.pdf"} target="_blank">Front End <em>Resume</em></a></li>
+                <li><a href={process.env.PUBLIC_URL + "/resume/tororese2020.pdf"} target="_blank">Hospitality <em>Resume</em></a></li>
                 </ul>    
         </div>
       </div>
