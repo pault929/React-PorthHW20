@@ -13,7 +13,7 @@ function HeroSection() {
       <h3>Full Stack developer with a focus on UX/UI designs. </h3> 
       {/* <p class='mainpg'>With the focus on designn and function to stream line and creat esmooth transitions.</p> */}
       <br></br>
-      <img class='pic' src="images/profile2.jpg" alt='profile picture' text-align="center"></img>
+      <img class='pic' src={process.env.PUBLIC_URL + "/images/profile2.jpg"} alt='profile picture' text-align="center"></img>
 
 
 
