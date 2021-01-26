@@ -31,7 +31,7 @@ function Footer() {
               </a>
               
 
-              <a href="https://www.linkedin.com/in/paul-ignacio-toro-0459b044/">
+              <a href="https://www.linkedin.com/in/paul-ignacio-toro">
               <i class='fab fa-linkedin' />
               </a>
         
